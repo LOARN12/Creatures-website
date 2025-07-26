@@ -92,7 +92,45 @@ nav ul a {
 }
 
 
+@media (max-width: 768px){
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+        gap: 10px;
+    }
 
+    .left {
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: 0;
+    }
+
+    nav ul a {
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+
+    .box-icons {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .box-icons a {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+    }
+}
 
 /* This is end of Luna Pioneers logo and nav */
 
@@ -189,7 +227,7 @@ header p {
 .filter-buttons {
     display: flex;
     gap: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .filter-buttons button {
@@ -202,7 +240,7 @@ header p {
 }
 
 .filter-buttons .active {
-    background: #8f60fd;
+    background: linear-gradient(45deg, #6e00ff, #00c2ff);
 }
 
 .controls select{
